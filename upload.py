@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
-__author__ = 'henrique.zinidasilva@student.hamk.fi'
 
 import cgi, os
 import cgitb
@@ -47,8 +46,5 @@ class upload:
         # """ % (message, nome,image)
 
         return nome,image
-
-    def PegaDados(self):
-        print("POOORRA CARALHO FUNCIONNAAA MERDA")
 
 
