@@ -1,0 +1,11 @@
+applications:
+- name: vr-hamk-interface
+  host: vr-hamk-interface
+  memory: 512M
+  command: python server.py
+  command: python couch-app.py
+  services:
+  - todo-db
+  - Visual-Recognition-rm
+
+  
